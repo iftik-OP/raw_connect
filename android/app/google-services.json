@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "555595238120",
+    "firebase_url": "https://raw-connect-default-rtdb.firebaseio.com",
+    "project_id": "raw-connect",
+    "storage_bucket": "raw-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555595238120:android:0fa4e9c291e287b829575d",
+        "android_client_info": {
+          "package_name": "com.example.raw_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555595238120-do08uei3cndl0k87ekln5l2j0lhcu58v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raw_connect",
+            "certificate_hash": "59aeb45fb80b388f13d093895bfbec7be5375dd2"
+          }
+        },
+        {
+          "client_id": "555595238120-37hi6d2sror71omq09gpfjtefg0avhrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5XuuncT2vn58AGq_2kOIVALcXw-qgWYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555595238120-37hi6d2sror71omq09gpfjtefg0avhrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
