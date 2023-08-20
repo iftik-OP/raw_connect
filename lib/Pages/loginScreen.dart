@@ -114,9 +114,7 @@ class _loginScreenState extends State<loginScreen> {
                                 await auth.verifyPhoneNumber(
                                   phoneNumber: '+91 ${phone}',
                                   verificationCompleted:
-                                      (PhoneAuthCredential credential) async {
-                                    await auth.signInWithCredential(credential);
-                                  },
+                                      (PhoneAuthCredential credential) {},
                                   verificationFailed:
                                       (FirebaseAuthException e) {
                                     print('Ye hai err: ${e.message}');

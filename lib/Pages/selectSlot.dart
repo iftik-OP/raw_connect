@@ -143,7 +143,7 @@ class _selectSlotPageState extends State<selectSlotPage> {
     isBookedUser.fillRange(0, isBookedUser.length, false);
     for (int i = 0; i < 24; i++) {
       if (isSelected[i] == true) {
-        isBooked[i] = true;
+        isBookedUser[i] = true;
       }
     }
     print('${user!.email}');
@@ -158,7 +158,7 @@ class _selectSlotPageState extends State<selectSlotPage> {
         .doc(docId)
         .set({
       'docId': intDocId,
-      'bookdBool': isBooked,
+      'bookdBool': isBookedUser,
       'Meeting Room': '${widget.meetingRoomName}',
       'Date': '${selectedDate.day}/${selectedDate.month}/${selectedDate.year}',
     });
